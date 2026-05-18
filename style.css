@@ -1,0 +1,92 @@
+/* Общие настройки стилей страницы */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Оформление шапки сайта */
+header {
+    background: linear-gradient(135deg, #1f3c6d, #071630);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 4px solid #4a90e2;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.group-badge {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #cbd5e1;
+}
+
+/* Стилизация контентных блоков (карточек) */
+.card {
+    background: #fff;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #1f3c6d;
+    margin-top: 0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+.card h3 {
+    color: #4a90e2;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Оформление тегов навыков (Skills) */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skill-tag {
+    background-color: #e2e8f0;
+    color: #1f3c6d;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+/* Подвал сайта */
+footer {
+    background-color: #071630;
+    color: #94a3b8;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
